@@ -79,9 +79,6 @@ public class Inscription extends HttpServlet {
         this.getServletContext().getRequestDispatcher( VUE ).forward( request, response );
     }
 
-    /**
-     * Valide l'adresse mail saisie.
-     */
     private void validationEmail( String email ) throws Exception {
         if ( email != null && email.trim().length() != 0 ) {
             if ( !email.matches( "([^.@]+)(\\.[^.@]+)*@([^.@]+\\.)+([^.@]+)" ) ) {
@@ -92,9 +89,6 @@ public class Inscription extends HttpServlet {
         }
     }
 
-    /**
-     * Valide les mots de passe saisis.
-     */
     private void validationMotsDePasse( String motDePasse, String confirmation ) throws Exception {
         if ( motDePasse != null && motDePasse.trim().length() != 0 && confirmation != null
                 && confirmation.trim().length() != 0 ) {
@@ -108,9 +102,6 @@ public class Inscription extends HttpServlet {
         }
     }
 
-    /**
-     * Valide le nom d'utilisateur saisi.
-     */
     private void validationNom( String nom ) throws Exception {
         if ( nom != null && nom.trim().length() < 3 ) {
             throw new Exception( "Le nom d'utilisateur doit contenir au moins 3 caractères." );
