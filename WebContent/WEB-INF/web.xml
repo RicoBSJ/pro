@@ -8,6 +8,10 @@
 		<servlet-name>Inscription</servlet-name>
 		<servlet-class>com.sdzee.pro.servlets.Inscription</servlet-class>
 	</servlet>
+	<servlet>
+		<servlet-name>InscriptionForm</servlet-name>
+		<servlet-class>com.sdzee.pro.forms.InscriptionForm</servlet-class>
+	</servlet>
 
 	<servlet-mapping>
 		<servlet-name>Inscription</servlet-name>
@@ -17,7 +21,7 @@
 	<jsp-config>
 		<jsp-property-group>
 			<url-pattern>*.jsp</url-pattern>
-			<include-prelude>/WEB-INF/taglibs.jsp</include-prelude>
+			<include-prelude>/WEB-INF/jsp/taglibs.jsp</include-prelude>
 		</jsp-property-group>
 	</jsp-config>
 
