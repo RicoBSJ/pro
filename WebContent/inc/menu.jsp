@@ -2,11 +2,11 @@
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
 <div id="menu">
 	<p>
-		<a href="<c:url value="/WEB-INF/jsp/creationClient"/>">Créer un
+		<a href="<c:url value="/WEB-INF/jsp/creerClient"/>">Créer un
 			nouveau client</a>
 	</p>
 	<p>
-		<a href="<c:url value="/WEB-INF/jsp/creationCommande"/>">Créer une
+		<a href="<c:url value="/WEB-INF/jsp/creerCommande"/>">Créer une
 			nouvelle commande</a>
 	</p>
 </div>

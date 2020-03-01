@@ -5,18 +5,22 @@
 	id="WebApp_ID" version="4.0">
 
 	<servlet>
-		<servlet-name>Inscription</servlet-name>
-		<servlet-class>com.sdzee.pro.servlets.Inscription</servlet-class>
+		<servlet-name>CreationClient</servlet-name>
+		<servlet-class>com.sdzee.pro.servlets.CreationClient</servlet-class>
 	</servlet>
-	<servlet>
-		<servlet-name>InscriptionForm</servlet-name>
-		<servlet-class>com.sdzee.pro.forms.InscriptionForm</servlet-class>
-	</servlet>
+<!-- 	<servlet> -->
+<!-- 		<servlet-name>CreationCommande</servlet-name> -->
+<!-- 		<servlet-class>com.sdzee.pro.servlets.CreationCommande</servlet-class> -->
+<!-- 	</servlet> -->
 
 	<servlet-mapping>
-		<servlet-name>Inscription</servlet-name>
-		<url-pattern>/inscription</url-pattern>
+		<servlet-name>CreationClient</servlet-name>
+		<url-pattern>/creationClient</url-pattern>
 	</servlet-mapping>
+<!-- 	<servlet-mapping> -->
+<!-- 		<servlet-name>CreationCommande</servlet-name> -->
+<!-- 		<url-pattern>/creationCommande</url-pattern> -->
+<!-- 	</servlet-mapping> -->
 
 	<jsp-config>
 		<jsp-property-group>
