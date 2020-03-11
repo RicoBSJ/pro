@@ -16,17 +16,17 @@ public class CreationClient extends HttpServlet {
 
     public static final String ATT_CLIENT       = "client";
     public static final String ATT_FORM         = "form";
-
     public static final String VUE_SUCCES       = "/WEB-INF/jsp/afficherClient.jsp";
-    public static final String VUE_FORM         = "/WEB-INF/jsp/creerClient.jsp";
+    public static final String VUE_FORM         = "/WEB-INF/creerClient.jsp";
 
     public void doGet( HttpServletRequest request, HttpServletResponse response ) throws ServletException, IOException {
-        /* À la réception d'une requête GET, simple affichage du formulaire */
+
         this.getServletContext().getRequestDispatcher( VUE_FORM ).forward( request, response );
     }
 
     public void doPost( HttpServletRequest request, HttpServletResponse response )
             throws ServletException, IOException {
+
         /* Préparation de l'objet formulaire */
         CreationClientForm form = new CreationClientForm();
 
