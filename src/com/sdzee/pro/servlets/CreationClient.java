@@ -17,7 +17,7 @@ public class CreationClient extends HttpServlet {
     public static final String ATT_CLIENT       = "client";
     public static final String ATT_FORM         = "form";
     public static final String VUE_SUCCES       = "/WEB-INF/jsp/afficherClient.jsp";
-    public static final String VUE_FORM         = "/WEB-INF/creerClient.jsp";
+    public static final String VUE_FORM         = "/WEB-INF/jsp/creerClient.jsp";
 
     public void doGet( HttpServletRequest request, HttpServletResponse response ) throws ServletException, IOException {
 

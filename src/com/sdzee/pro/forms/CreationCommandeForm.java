@@ -25,7 +25,7 @@ public final class CreationCommandeForm {
     private String              resultat;
     private Map<String, String> erreurs                = new HashMap<String, String>();
 
-    private Map<String, String> getErreurs() {
+    public Map<String, String> getErreurs() {
         return erreurs;
     }
 
