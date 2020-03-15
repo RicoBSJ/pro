@@ -10,15 +10,15 @@
     <body>
         <c:import url="/inc/menu.jsp" />
         <div>
-            <form method="post" action="<c:url value="/creationClient"/>">
-               <fieldset>
-                    <legend>Informations client</legend>
-                    <c:import url="/inc/inc_client_form.jsp" />
-                </fieldset>
-                <p class="info">${ form.resultat }</p>
-                <input type="submit" value="Valider"  />
-                <input type="reset" value="Remettre à zéro" /> <br />
-            </form>
+        	<form method="post" action="<c:url value="/creationClient"/>">
+        		<fieldset>
+        			<legend>Information client</legend>
+        			<c:import url="/inc/inc_client_form.jsp"/>
+        		</fieldset>
+        		<p class="info">${form.resultat}</p>
+        		<input type="submit" value="Valider"/>
+        		<input type="reset" value="Remettre à zéro"/><br>
+        	</form>
         </div>
     </body>
 </html>

@@ -8,19 +8,19 @@
 		<servlet-name>CreationClient</servlet-name>
 		<servlet-class>com.sdzee.pro.servlets.CreationClient</servlet-class>
 	</servlet>
-<!-- 	<servlet> -->
-<!-- 		<servlet-name>CreationCommande</servlet-name> -->
-<!-- 		<servlet-class>com.sdzee.pro.servlets.CreationCommande</servlet-class> -->
-<!-- 	</servlet> -->
+	<servlet>
+		<servlet-name>CreationCommande</servlet-name>
+		<servlet-class>com.sdzee.pro.servlets.CreationCommande</servlet-class>
+	</servlet>
 
 	<servlet-mapping>
 		<servlet-name>CreationClient</servlet-name>
 		<url-pattern>/creationClient</url-pattern>
 	</servlet-mapping>
-<!-- 	<servlet-mapping> -->
-<!-- 		<servlet-name>CreationCommande</servlet-name> -->
-<!-- 		<url-pattern>/creationCommande</url-pattern> -->
-<!-- 	</servlet-mapping> -->
+	<servlet-mapping>
+		<servlet-name>CreationCommande</servlet-name>
+		<url-pattern>/creationCommande</url-pattern>
+	</servlet-mapping>
 
 	<jsp-config>
 		<jsp-property-group>
