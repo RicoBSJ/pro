@@ -4,23 +4,31 @@
 	xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
 	id="WebApp_ID" version="4.0">
 
-<!-- 	<servlet> -->
-<!-- 		<servlet-name>CreationClient</servlet-name> -->
-<!-- 		<servlet-class>com.sdzee.pro.servlets.CreationClient</servlet-class> -->
-<!-- 	</servlet> -->
-<!-- 	<servlet> -->
-<!-- 		<servlet-name>CreationCommande</servlet-name> -->
-<!-- 		<servlet-class>com.sdzee.pro.servlets.CreationCommande</servlet-class> -->
-<!-- 	</servlet> -->
+	<!-- <servlet> -->
+	<!-- <servlet-name>CreationClient</servlet-name> -->
+	<!-- <servlet-class>com.sdzee.pro.servlets.CreationClient</servlet-class> -->
+	<!-- </servlet> -->
+	<!-- <servlet> -->
+	<!-- <servlet-name>CreationCommande</servlet-name> -->
+	<!-- <servlet-class>com.sdzee.pro.servlets.CreationCommande</servlet-class> -->
+	<!-- </servlet> -->
+	<!-- <servlet> -->
+	<!-- <servlet-name>Connexion</servlet-name> -->
+	<!-- <servlet-class>com.sdzee.pro.servlets</servlet-class> -->
+	<!-- </servlet> -->
 
-<!-- 	<servlet-mapping> -->
-<!-- 		<servlet-name>CreationClient</servlet-name> -->
-<!-- 		<url-pattern>/creationClient</url-pattern> -->
-<!-- 	</servlet-mapping> -->
-<!-- 	<servlet-mapping> -->
-<!-- 		<servlet-name>CreationCommande</servlet-name> -->
-<!-- 		<url-pattern>/creationCommande</url-pattern> -->
-<!-- 	</servlet-mapping> -->
+	<!-- <servlet-mapping> -->
+	<!-- <servlet-name>CreationClient</servlet-name> -->
+	<!-- <url-pattern>/creationClient</url-pattern> -->
+	<!-- </servlet-mapping> -->
+	<!-- <servlet-mapping> -->
+	<!-- <servlet-name>CreationCommande</servlet-name> -->
+	<!-- <url-pattern>/creationCommande</url-pattern> -->
+	<!-- </servlet-mapping> -->
+	<!-- <servlet-mapping> -->
+	<!-- <servlet-name>Connexion</servlet-name> -->
+	<!-- <url-pattern>/connexion</url-pattern> -->
+	<!-- </servlet-mapping> -->
 
 	<jsp-config>
 		<jsp-property-group>
